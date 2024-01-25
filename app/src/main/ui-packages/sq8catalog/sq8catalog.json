@@ -1,0 +1,217 @@
+{
+  "name": "sq8catalog",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "268:112",
+    "version": "5026694719",
+    "component-id": "6e84f3bb7fe51b4757fb4a2c8ca4d39ffb46e75f"
+  },
+  "default": "SQ8Catalog",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "ButtonSpecSQ8"
+      },
+      {
+        "type": "image",
+        "id": "ImageSQ8"
+      },
+      {
+        "type": "text",
+        "id": "TextAudiSQ8"
+      },
+      {
+        "type": "text",
+        "id": "TextEspecButtonSQ8"
+      }
+    ],
+    "modes": {
+      "SQ8Catalog": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ButtonSpecSQ8",
+              "ImageSQ8",
+              "TextAudiSQ8"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "ButtonSpecSQ8",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "144.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "92.0"
+              }
+            },
+            "tap-handler": "$onButtonSpecClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "TextEspecButtonSQ8"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "ImageSQ8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-5.34375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "131.3125"
+              }
+            },
+            "image-content": "image_sq8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "TextAudiSQ8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-112.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "Audi SQ8 e-tron",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "4"
+                },
+                {
+                  "span-start": "4",
+                  "span-length": "11",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TextEspecButtonSQ8",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Especificaciones",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onButtonSpecClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "SQ8Catalog",
+      "size": {
+        "width": 430.0,
+        "height": 288.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

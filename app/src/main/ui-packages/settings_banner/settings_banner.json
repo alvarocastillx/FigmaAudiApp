@@ -1,0 +1,82 @@
+{
+  "name": "settings_banner",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "273:666",
+    "version": "5026898644",
+    "component-id": "9ec73cb3c3fbb87bc1b19d24e3ad1617b8e6e1ba"
+  },
+  "default": "SettingsBanner",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "TextBannerSettings"
+      }
+    ],
+    "modes": {
+      "SettingsBanner": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "TextBannerSettings"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "TextBannerSettings",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "112.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Configuración",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "SettingsBanner",
+      "size": {
+        "width": 430.0,
+        "height": 78.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

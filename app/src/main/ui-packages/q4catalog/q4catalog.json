@@ -1,0 +1,217 @@
+{
+  "name": "q4catalog",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "268:124",
+    "version": "5026726239",
+    "component-id": "a8dc68b6ec0f391e2183b97ca4fdc3a8bf98b9ba"
+  },
+  "default": "Q4Catalog",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "ButtonSpecQ4"
+      },
+      {
+        "type": "image",
+        "id": "ImageQ4"
+      },
+      {
+        "type": "text",
+        "id": "TextAudiQ4"
+      },
+      {
+        "type": "text",
+        "id": "TextButtonSpecQ4"
+      }
+    ],
+    "modes": {
+      "Q4Catalog": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ButtonSpecQ4",
+              "ImageQ4",
+              "TextAudiQ4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "ButtonSpecQ4",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "56.0"
+              }
+            },
+            "tap-handler": "$onButtonSpecClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "TextButtonSpecQ4"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "ImageQ4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-41.65625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "154.6875"
+              }
+            },
+            "image-content": "image_q4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "TextAudiQ4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-148.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Audi Q4 e-tron",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "4"
+                },
+                {
+                  "span-start": "4",
+                  "span-length": "10",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TextButtonSpecQ4",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Especificaciones",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onButtonSpecClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Q4Catalog",
+      "size": {
+        "width": 430.0,
+        "height": 360.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,249 @@
+{
+  "name": "audi_rs7catalog",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "258:625",
+    "version": "5026532419",
+    "component-id": "b127a18afdf2945603118aaacd6372016e539478"
+  },
+  "default": "AudiRS7Catalog",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "BotonEspecRS7"
+      },
+      {
+        "type": "group",
+        "id": "Sobre nosotros"
+      },
+      {
+        "type": "text",
+        "id": "TextButtonRS7"
+      },
+      {
+        "type": "image",
+        "id": "ImageRS7"
+      },
+      {
+        "type": "text",
+        "id": "TextAudiRS7"
+      }
+    ],
+    "modes": {
+      "AudiRS7Catalog": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "BotonEspecRS7",
+              "Sobre nosotros"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "BotonEspecRS7",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "112.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "121.0"
+              }
+            },
+            "tap-handler": "$onButtonEspecClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "TextButtonRS7"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Sobre nosotros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "26.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "184.45945739746094"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ImageRS7",
+              "TextAudiRS7"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "TextButtonRS7",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Especificaciones",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "ImageRS7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "37.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "109.45945739746094"
+              }
+            },
+            "image-content": "image_rs7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "TextAudiRS7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-71.72972869873047"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "Audi RS7",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "5"
+                },
+                {
+                  "span-start": "5",
+                  "span-length": "3",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "1.0",
+                      "value": "1.0"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onButtonEspecClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "AudiRS7Catalog",
+      "size": {
+        "width": 430.0,
+        "height": 288.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,329 @@
+{
+  "name": "vehiculos_acombustion",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "255:603",
+    "version": "5026521663",
+    "component-id": "9b38cc6f8b0617ec88b187b328a3872f7222a797"
+  },
+  "default": "VehiculosACombustion",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "IconoAudi"
+      },
+      {
+        "type": "image",
+        "id": "imagenRS7"
+      },
+      {
+        "type": "image",
+        "id": "imagenR8"
+      },
+      {
+        "type": "text",
+        "id": "Vehículos a combustión"
+      },
+      {
+        "type": "vector",
+        "id": "LineaSeparatoria"
+      },
+      {
+        "type": "group",
+        "id": "Banner superior"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "text",
+        "id": "Catálogo"
+      }
+    ],
+    "modes": {
+      "VehiculosACombustion": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "IconoAudi",
+              "imagenRS7",
+              "imagenR8",
+              "Vehículos a combustión",
+              "LineaSeparatoria",
+              "Banner superior"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "IconoAudi",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "44.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "imagenRS7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "84.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "70.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "199.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "89.0"
+              }
+            },
+            "image-content": "imagen_rs7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "imagenR8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-57.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "85.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "253.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            },
+            "image-content": "imagen_r8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vehículos a combustión",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-42.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "Vehículos a combustión",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "10"
+                },
+                {
+                  "span-start": "10",
+                  "span-length": "12",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "1.0",
+                      "value": "1.0"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "LineaSeparatoria",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "155.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "linea_separatoria.svg"
+          },
+          {
+            "id": "Banner superior",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-118.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Catálogo"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "top": "14.06103515625",
+              "bottom": "14.060953140258789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.00048828125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Catálogo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "149.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Catálogo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "VehiculosACombustion",
+      "size": {
+        "width": 430.0,
+        "height": 314.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

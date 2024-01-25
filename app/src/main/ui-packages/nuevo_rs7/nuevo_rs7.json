@@ -1,0 +1,462 @@
+{
+  "name": "nuevo_rs7",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "251:56",
+    "version": "5025411190",
+    "component-id": "5078563fa31e5bc39f479cb43fe3ec5e32ab1499"
+  },
+  "default": "NuevoRS7",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Flecha"
+      },
+      {
+        "type": "group",
+        "id": "BotonConfig"
+      },
+      {
+        "type": "image",
+        "id": "ImagenCoche"
+      },
+      {
+        "type": "group",
+        "id": "BotonEspec"
+      },
+      {
+        "type": "group",
+        "id": "Banner superior"
+      },
+      {
+        "type": "vector",
+        "id": "VectorFlecha"
+      },
+      {
+        "type": "group",
+        "id": "capaBotonConfig"
+      },
+      {
+        "type": "text",
+        "id": "TextoBotonConfig"
+      },
+      {
+        "type": "group",
+        "id": "capaBotonEspec"
+      },
+      {
+        "type": "text",
+        "id": "TextoBotonEspec"
+      },
+      {
+        "type": "text",
+        "id": "NUEVO RS7"
+      }
+    ],
+    "modes": {
+      "NuevoRS7": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Flecha",
+              "BotonConfig",
+              "ImagenCoche",
+              "BotonEspec",
+              "Banner superior"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Flecha",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "179.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.5"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.3877787807814457e-16",
+                "-1.0",
+                "0.0"
+              ],
+              [
+                "1.0",
+                "1.3877787807814457e-16",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorFlecha"
+            ]
+          },
+          {
+            "id": "BotonConfig",
+            "border-radius": "117.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.14901960784313725",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "3.0",
+              "offset-x": "0.0",
+              "offset-y": "1.0",
+              "spread": "1.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-85.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "104.5"
+              }
+            },
+            "tap-handler": "$onButtonConfigClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "159.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "children": [
+              "capaBotonConfig"
+            ],
+            "item-spacing": "8.0"
+          },
+          {
+            "id": "ImagenCoche",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.229728698730469"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "109.45945739746094"
+              }
+            },
+            "image-content": "imagen_coche.png",
+            "scale": "cover"
+          },
+          {
+            "id": "BotonEspec",
+            "border-radius": "100.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.14901960784313725",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "3.0",
+              "offset-x": "0.0",
+              "offset-y": "1.0",
+              "spread": "1.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "87.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "104.5"
+              }
+            },
+            "tap-handler": "$onButtonSpecClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "159.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "children": [
+              "capaBotonEspec"
+            ],
+            "item-spacing": "8.0"
+          },
+          {
+            "id": "Banner superior",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-97.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "NUEVO RS7"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "VectorFlecha",
+            "margin": {
+              "left": "7.8125",
+              "top": "8.75",
+              "right": "7.8125",
+              "bottom": "8.75"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-2.25"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-3.1820068359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_flecha.svg"
+          },
+          {
+            "id": "capaBotonConfig",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "TextoBotonConfig"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextoBotonConfig",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Configure el suyo",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "capaBotonEspec",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "TextoBotonEspec"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextoBotonEspec",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Especificaciones",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "NUEVO RS7",
+            "margin": {
+              "top": "20.0",
+              "bottom": "22.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "NUEVO RS7",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "font-weight": "600.0",
+                    "text-size": "30.0",
+                    "typeface": "Inter",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "1.0"
+                    }
+                  }
+                },
+                {
+                  "span-start": "6",
+                  "span-length": "3",
+                  "annotated-text-style": {
+                    "font-weight": "600.0",
+                    "text-size": "30.0",
+                    "typeface": "Inter",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "1.0",
+                      "value": "1.0"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-size": "30.0",
+            "line-height": "1.1990000406901042",
+            "typeface": "Inria Serif"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onButtonConfigClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onButtonSpecClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "NuevoRS7",
+      "size": {
+        "width": 430.0,
+        "height": 273.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

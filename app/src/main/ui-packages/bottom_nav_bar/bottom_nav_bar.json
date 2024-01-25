@@ -1,0 +1,351 @@
+{
+  "name": "bottom_nav_bar",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "253:538",
+    "version": "5025591956",
+    "component-id": "bdc9fd1495f10e2f7c62545d1dc23c672b9d4329"
+  },
+  "default": "BottomNavBar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "MainRectangle"
+      },
+      {
+        "type": "group",
+        "id": "IconCar"
+      },
+      {
+        "type": "vector",
+        "id": "Line 4"
+      },
+      {
+        "type": "group",
+        "id": "IconSettings"
+      },
+      {
+        "type": "vector",
+        "id": "Line 2"
+      },
+      {
+        "type": "group",
+        "id": "IconAudi"
+      },
+      {
+        "type": "vector",
+        "id": "VectorCar2"
+      },
+      {
+        "type": "vector",
+        "id": "VectorCar1"
+      },
+      {
+        "type": "vector",
+        "id": "VectorSettings"
+      },
+      {
+        "type": "vector",
+        "id": "VectorAudi"
+      }
+    ],
+    "modes": {
+      "BottomNavBar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "MainRectangle",
+              "IconCar",
+              "Line 4",
+              "IconSettings",
+              "Line 2",
+              "IconAudi"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "MainRectangle",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "411.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "vector-content": "main_rectangle.svg"
+          },
+          {
+            "id": "IconCar",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$onCarButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorCar2",
+              "VectorCar1"
+            ]
+          },
+          {
+            "id": "Line 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-75.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_4.svg"
+          },
+          {
+            "id": "IconSettings",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "135.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$onSettingsButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorSettings"
+            ]
+          },
+          {
+            "id": "Line 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "74.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_2.svg"
+          },
+          {
+            "id": "IconAudi",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-137.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$onAudiButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "62.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorAudi"
+            ]
+          },
+          {
+            "id": "VectorCar2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "VectorCar1",
+            "margin": {
+              "left": "4.0",
+              "top": "8.0",
+              "right": "4.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_car1.svg"
+          },
+          {
+            "id": "VectorSettings",
+            "margin": {
+              "left": "3.89990234375",
+              "top": "4.0",
+              "right": "3.9001007080078125",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_settings.svg"
+          },
+          {
+            "id": "VectorAudi",
+            "margin": {
+              "top": "20.27392578125",
+              "bottom": "20.274057388305664"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.000732421875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_audi.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onCarButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onSettingsButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onAudiButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "BottomNavBar",
+      "size": {
+        "width": 411.0,
+        "height": 62.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

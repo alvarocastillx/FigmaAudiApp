@@ -1,0 +1,217 @@
+{
+  "name": "etron_gtcatalog",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "264:94",
+    "version": "5026662466",
+    "component-id": "c596e1cef997c6ac9b6173cdb91f4af3b2cc0afc"
+  },
+  "default": "EtronGTCatalog",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "ButtonEspecEtron"
+      },
+      {
+        "type": "image",
+        "id": "image 25"
+      },
+      {
+        "type": "text",
+        "id": "TextoAudiEtron"
+      },
+      {
+        "type": "text",
+        "id": "TextEspecButtonEtron"
+      }
+    ],
+    "modes": {
+      "EtronGTCatalog": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ButtonEspecEtron",
+              "image 25",
+              "TextoAudiEtron"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "ButtonEspecEtron",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "43.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "92.0"
+              }
+            },
+            "tap-handler": "$onButtonSpecClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "TextEspecButtonEtron"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "image 25",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "300.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              }
+            },
+            "image-content": "image_25.png",
+            "scale": "cover"
+          },
+          {
+            "id": "TextoAudiEtron",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-112.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Audi e-tron GT",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "4"
+                },
+                {
+                  "span-start": "4",
+                  "span-length": "10",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TextEspecButtonEtron",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Especificaciones",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onButtonSpecClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "EtronGTCatalog",
+      "size": {
+        "width": 430.0,
+        "height": 288.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

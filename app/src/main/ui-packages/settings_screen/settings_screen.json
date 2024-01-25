@@ -1,0 +1,603 @@
+{
+  "name": "settings_screen",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "276:712",
+    "version": "5033303967",
+    "component-id": "3d9c4dc84b665f4a22c023e95fc3268a3ec67c41"
+  },
+  "default": "SettingsScreen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "ContactButton"
+      },
+      {
+        "type": "group",
+        "id": "LoginButton"
+      },
+      {
+        "type": "group",
+        "id": "SwitchDatos"
+      },
+      {
+        "type": "text",
+        "id": "TextLimit"
+      },
+      {
+        "type": "text",
+        "id": "Uso de datos"
+      },
+      {
+        "type": "group",
+        "id": "SwitchData"
+      },
+      {
+        "type": "text",
+        "id": "TextData"
+      },
+      {
+        "type": "group",
+        "id": "SwitchRecon"
+      },
+      {
+        "type": "text",
+        "id": "TextRecon"
+      },
+      {
+        "type": "text",
+        "id": "TextPrivacidad"
+      },
+      {
+        "type": "group",
+        "id": "SwitchSesion"
+      },
+      {
+        "type": "text",
+        "id": "TextSesion"
+      },
+      {
+        "type": "text",
+        "id": "TextGeneral"
+      },
+      {
+        "type": "text",
+        "id": "ContactButtonText"
+      },
+      {
+        "type": "text",
+        "id": "LoginButtonText"
+      }
+    ],
+    "modes": {
+      "SettingsScreen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ContactButton",
+              "LoginButton",
+              "SwitchDatos",
+              "TextLimit",
+              "Uso de datos",
+              "SwitchData",
+              "TextData",
+              "SwitchRecon",
+              "TextRecon",
+              "TextPrivacidad",
+              "SwitchSesion",
+              "TextSesion",
+              "TextGeneral"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "ContactButton",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "125.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "139.5"
+              }
+            },
+            "tap-handler": "$onContactButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "ContactButtonText"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "LoginButton",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "119.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "80.5"
+              }
+            },
+            "tap-handler": "$onLoginButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "LoginButtonText"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "SwitchDatos",
+            "border-radius": "39.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "165.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-16.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextLimit",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-95.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Limitar uso de datos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Uso de datos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-70.5"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Uso de datos",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "SwitchData",
+            "border-radius": "38.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "165.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-133.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextData",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-53.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-134.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Habilitar protección de datos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "SwitchRecon",
+            "border-radius": "62.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "165.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-189.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextRecon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-45.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-189.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Habilitar reconocimiento facial",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TextPrivacidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-243.5"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Privacidad",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "SwitchSesion",
+            "border-radius": "76.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "165.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-302.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextSesion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-72.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-302.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Mantener sesión iniciada",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TextGeneral",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-360.5"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "General",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "ContactButtonText",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Contacto",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "LoginButtonText",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Inicio de sesión",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onContactButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onLoginButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "SettingsScreen",
+      "size": {
+        "width": 430.0,
+        "height": 793.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
