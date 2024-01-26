@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
@@ -17,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.acasloa946.figmaproject.bottomnavbar.BottomNavBar
-import com.acasloa946.figmaproject.electricos.Electricos
+import com.acasloa946.figmaproject.electricoscomponent.ElectricosComponent
+import com.acasloa946.figmaproject.initalscreennavbar.InitalScreenNavBar
 import com.acasloa946.figmaproject.nuevors7.NuevoRs7
 import com.acasloa946.figmaproject.routes.Routes
 import com.acasloa946.figmaproject.sobrenosotroscomponent.SobreNosotrosComponent
@@ -38,32 +37,32 @@ fun InitialScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            NuevoRs7(
-                modifier = Modifier
-                    .width(430.dp)
-                    .height(273.dp)
-            )
+            NuevoRs7(modifier = Modifier
+                .width(430.dp)
+                .height(273.dp),
+                onRightArrowClick = {
+                    //TODO
+                })
             SobreNosotrosComponent(
                 modifier = Modifier
                     .width(430.dp)
                     .height(470.dp)
             )
-            Electricos(
-                modifier = Modifier
-                    .width(430.dp)
-                    .height(371.dp)
-            )
+            ElectricosComponent(modifier = Modifier.size(430.dp,371.dp), onDiscoverButtonClick = {
+                navController.navigate(Routes.CatalogScreen.route)
+            })
+
         }
         Box(
             modifier = Modifier
-                .size(width = 411.dp, height = 62.dp)
+                .size(width = 430.dp, height = 60.dp)
                 .align(Alignment.BottomCenter)
-                .padding(bottom = 30.dp)
+
         ) {
-            BottomNavBar(onCarButtonClick = {
+            InitalScreenNavBar(onCarIconClick = {
                 navController.navigate(Routes.CatalogScreen.route)
             },
-                onAudiButtonClick = {
+                onAudiIconClick = {
                     navController.navigate(Routes.InitialScreen.route)
                 },
                 onSettingsButtonClick = {

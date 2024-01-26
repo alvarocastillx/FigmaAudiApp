@@ -1,0 +1,419 @@
+{
+  "name": "catalog_navigation_bar",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "304:612",
+    "version": "5034481901",
+    "component-id": "734a454cd1e3f34113208c2fc0409e3c1390eb5e"
+  },
+  "default": "CatalogNavigationBar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "group",
+        "id": "FrameSettingsButton"
+      },
+      {
+        "type": "group",
+        "id": "FrameCatalogButton"
+      },
+      {
+        "type": "group",
+        "id": "FrameAudiIcon"
+      },
+      {
+        "type": "group",
+        "id": "SettingsIcon"
+      },
+      {
+        "type": "vector",
+        "id": "SettingsIconVector"
+      },
+      {
+        "type": "group",
+        "id": "CarIcon"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2CarIcon"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1CarIcon"
+      },
+      {
+        "type": "group",
+        "id": "AudiIcon"
+      },
+      {
+        "type": "vector",
+        "id": "AudiIconVector"
+      }
+    ],
+    "modes": {
+      "CatalogNavigationBar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "stroke-width": "1.0",
+            "stroke-alignment": "outside",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1",
+              "FrameSettingsButton",
+              "FrameCatalogButton",
+              "FrameAudiIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "FrameSettingsButton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "146.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "SettingsIcon"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "FrameCatalogButton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "CarIcon"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "FrameAudiIcon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-146.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "AudiIcon"
+            ]
+          },
+          {
+            "id": "SettingsIcon",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.6094894409179688"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.39999961853027344"
+              }
+            },
+            "tap-handler": "$onSettingsButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.21897888183594"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.79999923706055"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "SettingsIconVector"
+            ]
+          },
+          {
+            "id": "SettingsIconVector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.0002155303955078125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.0000171661376953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.05839157104492"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.666664123535156"
+              }
+            },
+            "vector-content": "settings_icon_vector.svg"
+          },
+          {
+            "id": "CarIcon",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.10948944091796875"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$onCarIconClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.21897888183594"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector2CarIcon",
+              "Vector1CarIcon"
+            ]
+          },
+          {
+            "id": "Vector2CarIcon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.21897888183594"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            }
+          },
+          {
+            "id": "Vector1CarIcon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0001430511474609375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.84914779663086"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              }
+            },
+            "vector-content": "vector1car_icon.svg"
+          },
+          {
+            "id": "AudiIcon",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.9793167114257812"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$onAudiIconClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.95863342285156"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "62.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "AudiIconVector"
+            ]
+          },
+          {
+            "id": "AudiIconVector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.00078582763671875"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.00006580352783203125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.960205078125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.452016830444336"
+              }
+            },
+            "vector-content": "audi_icon_vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onSettingsButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onCarIconClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onAudiIconClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "CatalogNavigationBar",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

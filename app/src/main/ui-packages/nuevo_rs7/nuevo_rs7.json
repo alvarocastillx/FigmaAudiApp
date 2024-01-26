@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "Tk8E1Ca3InxrWRSQ9HsDii",
     "node": "251:56",
-    "version": "5025411190",
+    "version": "5034481901",
     "component-id": "5078563fa31e5bc39f479cb43fe3ec5e32ab1499"
   },
   "default": "NuevoRS7",
@@ -15,10 +15,6 @@
         "type": "group",
         "id": "top_level",
         "root": "true"
-      },
-      {
-        "type": "group",
-        "id": "Flecha"
       },
       {
         "type": "group",
@@ -37,8 +33,8 @@
         "id": "Banner superior"
       },
       {
-        "type": "vector",
-        "id": "VectorFlecha"
+        "type": "group",
+        "id": "RightArrow"
       },
       {
         "type": "group",
@@ -59,6 +55,10 @@
       {
         "type": "text",
         "id": "NUEVO RS7"
+      },
+      {
+        "type": "vector",
+        "id": "RightArrowVector"
       }
     ],
     "modes": {
@@ -68,52 +68,13 @@
             "id": "top_level",
             "is-structured": "false",
             "children": [
-              "Flecha",
               "BotonConfig",
               "ImagenCoche",
               "BotonEspec",
-              "Banner superior"
+              "Banner superior",
+              "RightArrow"
             ],
             "clip-content": "false"
-          },
-          {
-            "id": "Flecha",
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": "179.0"
-              },
-              "vertical": {
-                "attachment": "center",
-                "offset": "-2.5"
-              }
-            },
-            "relative-transform": [
-              [
-                "1.3877787807814457e-16",
-                "-1.0",
-                "0.0"
-              ],
-              [
-                "1.0",
-                "1.3877787807814457e-16",
-                "0.0"
-              ]
-            ],
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "40.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "40.0"
-              }
-            },
-            "is-structured": "false",
-            "children": [
-              "VectorFlecha"
-            ]
           },
           {
             "id": "BotonConfig",
@@ -258,34 +219,32 @@
             }
           },
           {
-            "id": "VectorFlecha",
-            "margin": {
-              "left": "7.8125",
-              "top": "8.75",
-              "right": "7.8125",
-              "bottom": "8.75"
-            },
+            "id": "RightArrow",
             "alignment": {
               "horizontal": {
                 "attachment": "start",
-                "offset": "-2.25"
+                "offset": "365.0"
               },
               "vertical": {
                 "attachment": "start",
-                "offset": "-3.1820068359375"
+                "offset": "121.0"
               }
             },
+            "tap-handler": "$onRightArrowClick",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "fixed",
+                "value": "48.0"
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "fixed",
+                "value": "48.0"
               }
             },
-            "vector-content": "vector_flecha.svg"
+            "is-structured": "false",
+            "children": [
+              "RightArrowVector"
+            ]
           },
           {
             "id": "capaBotonConfig",
@@ -430,6 +389,26 @@
             "text-size": "30.0",
             "line-height": "1.1990000406901042",
             "typeface": "Inria Serif"
+          },
+          {
+            "id": "RightArrowVector",
+            "margin": {
+              "left": "8.0",
+              "top": "12.0",
+              "right": "8.0",
+              "bottom": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "right_arrow_vector.svg"
           }
         ]
       }
@@ -442,6 +421,11 @@
       "description": ""
     },
     "onButtonSpecClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onRightArrowClick": {
       "data-type": "void-callback",
       "required": false,
       "description": ""

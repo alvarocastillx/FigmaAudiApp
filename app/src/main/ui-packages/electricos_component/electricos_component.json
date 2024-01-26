@@ -1,0 +1,324 @@
+{
+  "name": "electricos_component",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "253:85",
+    "version": "5034552970",
+    "component-id": "f1dc0ba623e30eed47338b72600067a590c83fe3"
+  },
+  "default": "ElectricosComponent",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "BackVideo"
+      },
+      {
+        "type": "group",
+        "id": "DiscoverButton"
+      },
+      {
+        "type": "image",
+        "id": "3CarImages"
+      },
+      {
+        "type": "vector",
+        "id": "Linea separatoria lower"
+      },
+      {
+        "type": "text",
+        "id": "TextElectric"
+      },
+      {
+        "type": "group",
+        "id": "AudiIcon"
+      },
+      {
+        "type": "text",
+        "id": "DiscoverButtonText"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "ElectricosComponent": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "BackVideo",
+              "DiscoverButton",
+              "3CarImages",
+              "Linea separatoria lower",
+              "TextElectric",
+              "AudiIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "BackVideo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "371.0"
+              }
+            },
+            "image-content": "back_video.png",
+            "scale": "cover"
+          },
+          {
+            "id": "DiscoverButton",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "50.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "151.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "218.0"
+              }
+            },
+            "tap-handler": "$onDiscoverButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "127.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "DiscoverButtonText"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "3CarImages",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "367.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "94.0"
+              }
+            },
+            "image-content": "3car_images.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Linea separatoria lower",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-166.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "400.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "linea_separatoria_lower.svg"
+          },
+          {
+            "id": "TextElectric",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-130.5"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "Nueva gama totalmente eléctrica",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "21",
+                  "annotated-text-style": {
+                    "text-size": "25.0"
+                  }
+                },
+                {
+                  "span-start": "21",
+                  "span-length": "10",
+                  "annotated-text-style": {
+                    "text-size": "25.0",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "AudiIcon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-96.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "44.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "DiscoverButtonText",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Descúbrelos",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0005168914794921875"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.00004100799560546875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "44.001033782958984"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.878011703491211"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onDiscoverButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "ElectricosComponent",
+      "size": {
+        "width": 430.0,
+        "height": 371.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

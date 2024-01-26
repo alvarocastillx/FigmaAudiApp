@@ -1,0 +1,82 @@
+{
+  "name": "login_banner",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "294:593",
+    "version": "5034481901",
+    "component-id": "c43705a4922b1fd187c4d84c1e4f6fad2e2b6282"
+  },
+  "default": "LoginBanner",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "TextLoginBanner"
+      }
+    ],
+    "modes": {
+      "LoginBanner": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "TextLoginBanner"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "TextLoginBanner",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "102.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Inicio de sesión",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "LoginBanner",
+      "size": {
+        "width": 430.0,
+        "height": 78.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,325 @@
+{
+  "name": "login_screen",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "294:635",
+    "version": "5034481901",
+    "component-id": "e2942dbd789a5a24b09d0195f44d907b0b30be6c"
+  },
+  "default": "LoginScreen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "LoginButton"
+      },
+      {
+        "type": "group",
+        "id": "SwitchSesion"
+      },
+      {
+        "type": "text",
+        "id": "SesionSwitchText"
+      },
+      {
+        "type": "group",
+        "id": "PasswordOutLinedTextField"
+      },
+      {
+        "type": "group",
+        "id": "UserOutLinedTextField"
+      },
+      {
+        "type": "group",
+        "id": "AudiLogo"
+      },
+      {
+        "type": "text",
+        "id": "LoginButtonText"
+      },
+      {
+        "type": "vector",
+        "id": "AudiLogoVector"
+      }
+    ],
+    "modes": {
+      "LoginScreen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "LoginButton",
+              "SwitchSesion",
+              "SesionSwitchText",
+              "PasswordOutLinedTextField",
+              "UserOutLinedTextField",
+              "AudiLogo"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "LoginButton",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "58.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "39.0"
+              }
+            },
+            "tap-handler": "$onLoginButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "133.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "LoginButtonText"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "SwitchSesion",
+            "border-radius": "41.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "99.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "SesionSwitchText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-28.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-16.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "193.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "text-content": "Mantener sesión iniciada",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "PasswordOutLinedTextField",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-79.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "210.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "UserOutLinedTextField",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-159.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "210.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "AudiLogo",
+            "border-radius": "115.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-275.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "151.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "146.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "AudiLogoVector"
+            ]
+          },
+          {
+            "id": "LoginButtonText",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Iniciar sesión",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "AudiLogoVector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.00177001953125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.0000362396240234375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "151.0035400390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.51604080200195"
+              }
+            },
+            "vector-content": "audi_logo_vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onLoginButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "LoginScreen",
+      "size": {
+        "width": 430.0,
+        "height": 792.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

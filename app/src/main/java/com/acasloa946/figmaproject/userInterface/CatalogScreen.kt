@@ -18,15 +18,15 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.acasloa946.figmaproject.audir8catalog.AudiR8catalog
 import com.acasloa946.figmaproject.audirs7catalog.AudiRs7catalog
-import com.acasloa946.figmaproject.audirs7catalog.AudiRs7catalog
-import com.acasloa946.figmaproject.bottomnavbar.BottomNavBar
-import com.acasloa946.figmaproject.etrongtcatalog.EtronGtcatalog
+ import com.acasloa946.figmaproject.etrongtcatalog.EtronGtcatalog
 import com.acasloa946.figmaproject.q4catalog.Q4catalog
 import com.acasloa946.figmaproject.routes.Routes
 import com.acasloa946.figmaproject.sq8catalog.Sq8catalog
 import com.acasloa946.figmaproject.vehiculosacombustion.VehiculosAcombustion
 import com.acasloa946.figmaproject.vehiculoselectricos.VehiculosElectricos
 import com.acasloa946.figmaproject.audirs6catalog.AudiRs6catalog
+import com.acasloa946.figmaproject.catalognavigationbar.CatalogNavigationBar
+
 @Composable
 fun CatalogScreen(navController: NavController) {
 
@@ -50,14 +50,14 @@ fun CatalogScreen(navController: NavController) {
         }
         Box(
             modifier = Modifier
-                .size(width = 411.dp, height = 62.dp)
+                .size(width = 430.dp, height = 60.dp)
                 .align(Alignment.BottomCenter)
-                .padding(bottom = 30.dp)
+                .padding(top=1.dp)
         ) {
-            BottomNavBar(onCarButtonClick = {
+            CatalogNavigationBar(onCarIconClick = {
                 navController.navigate(Routes.CatalogScreen.route)
             },
-                onAudiButtonClick = {
+                onAudiIconClick = {
                     navController.navigate(Routes.InitialScreen.route)
                 },
                 onSettingsButtonClick = {

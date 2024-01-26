@@ -13,6 +13,7 @@ import com.acasloa946.figmaproject.routes.Routes
 import com.acasloa946.figmaproject.ui.theme.FigmaProjectTheme
 import com.acasloa946.figmaproject.userInterface.CatalogScreen
 import com.acasloa946.figmaproject.userInterface.InitialScreen
+import com.acasloa946.figmaproject.userInterface.LoginScreen
 import com.acasloa946.figmaproject.userInterface.OptionsScreen
 
 class MainActivity : ComponentActivity() {
@@ -25,8 +26,10 @@ class MainActivity : ComponentActivity() {
                     val NavController = rememberNavController()
                     NavHost(NavController, startDestination = Routes.InitialScreen.route) {
                         composable(Routes.InitialScreen.route) { InitialScreen(NavController) }
-                        composable(Routes.CatalogScreen.route) { CatalogScreen(navController = NavController)}
+                        composable(Routes.CatalogScreen.route) { CatalogScreen(NavController)}
                         composable(Routes.OptionsScreen.route) { OptionsScreen(NavController)}
+                        composable(Routes.LoginScreen.route) { LoginScreen(NavController)}
+
 
                     }
 

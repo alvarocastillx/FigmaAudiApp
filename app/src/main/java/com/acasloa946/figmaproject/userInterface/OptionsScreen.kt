@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.SwitchDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -24,15 +23,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.acasloa946.figmaproject.bottomnavbar.BottomNavBar
 import com.acasloa946.figmaproject.routes.Routes
 import com.acasloa946.figmaproject.settingsbanner.SettingsBanner
 import androidx.compose.ui.unit.DpOffset
+import com.acasloa946.figmaproject.settingsnavigationbar.SettingsNavigationBar
 import com.acasloa946.figmaproject.settingsscreen.ContactButton
 import com.acasloa946.figmaproject.settingsscreen.ContactButtonText
 import com.acasloa946.figmaproject.settingsscreen.LoginButton
 import com.acasloa946.figmaproject.settingsscreen.LoginButtonText
-import com.acasloa946.figmaproject.settingsscreen.SettingsScreen
 import com.acasloa946.figmaproject.settingsscreen.SwitchData
 import com.acasloa946.figmaproject.settingsscreen.SwitchDatos
 import com.acasloa946.figmaproject.settingsscreen.SwitchRecon
@@ -66,25 +64,30 @@ fun OptionsScreen(navController: NavController) {
             verticalArrangement = Arrangement.Center
         ) {
             SettingsBanner(modifier = Modifier.size(430.dp, 78.dp))
-            SettingsScreenMain(modifier = Modifier.size(430.dp, 793.dp))
-            SettingsScreen()
+            SettingsScreenMain(modifier = Modifier.size(430.dp, 793.dp),
+                onLoginButtonClick ={
+                    navController.navigate(Routes.LoginScreen.route)
+                })
 
         }
         Box(
             modifier = Modifier
-                .size(width = 411.dp, height = 62.dp)
+                .size(width = 430.dp, height = 60.dp)
                 .align(Alignment.BottomCenter)
-                .padding(bottom = 30.dp)
+                .background(Color(0xff000000))
+                .padding(top = 2.dp)
         ) {
-            BottomNavBar(onCarButtonClick = {
-                navController.navigate(Routes.CatalogScreen.route)
-            },
-                onAudiButtonClick = {
+            SettingsNavigationBar(
+                onCarIconClick = {
+                    navController.navigate(Routes.CatalogScreen.route)
+                },
+                onAudiIconClick = {
                     navController.navigate(Routes.InitialScreen.route)
                 },
                 onSettingsButtonClick = {
                     navController.navigate(Routes.OptionsScreen.route)
-                })
+                }
+            )
         }
     }
 
