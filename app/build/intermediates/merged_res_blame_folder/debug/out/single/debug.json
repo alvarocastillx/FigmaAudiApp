@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_thin.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_thin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_vehiculos_electricos_audi_logo_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\vehiculos_electricos_audi_logo_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_sobre_nosotros_component_linea_separatoria_medio.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\sobre_nosotros_component_linea_separatoria_medio.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inria_serif_bold.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inria_serif_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_regular.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_settings_navigation_bar_settings_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\settings_navigation_bar_settings_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_semibold.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_rs7_imagen_abajo.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_rs7_imagen_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_etron_gtcatalog_etron_image.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\etron_gtcatalog_etron_image.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inria_serif_light_italic.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inria_serif_light_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_r8_left_arrow_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_r8_left_arrow_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_image_4.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_image_4.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inria_serif_bold_italic.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inria_serif_bold_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_catalog_navigation_bar_vector1car_icon.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\catalog_navigation_bar_vector1car_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_catalog_navigation_bar_settings_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\catalog_navigation_bar_settings_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs7_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs7_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_vehiculos_acombustion_linea_separatoria.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\vehiculos_acombustion_linea_separatoria.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_linea_separatoria_lower.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_linea_separatoria_lower.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs6_image_26.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs6_image_26.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_neutral_nav_bar_settings_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\neutral_nav_bar_settings_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_back_video.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_back_video.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_inital_screen_nav_bar_audi_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\inital_screen_nav_bar_audi_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_audi_r8catalog_image_r8.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\audi_r8catalog_image_r8.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs6_right_arrow_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs6_right_arrow_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_sq8catalog_image_sq8.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\sq8catalog_image_sq8.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_bottom_nav_bar_main_rectangle.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\bottom_nav_bar_main_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_audi_rs6catalog_image_rs6.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\audi_rs6catalog_image_rs6.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_19front_1.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_19front_1.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_component_3car_images.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_component_3car_images.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_medium.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_sq8_image_sq8.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_sq8_image_sq8.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_extrabold.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_image_2.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_image_2.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_settings_navigation_bar_audi_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\settings_navigation_bar_audi_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_inital_screen_nav_bar_vector1car_icon.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\inital_screen_nav_bar_vector1car_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_q4catalog_image_q4.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\q4catalog_image_q4.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_login_screen_audi_logo_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\login_screen_audi_logo_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_bottom_nav_bar_vector_audi.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\bottom_nav_bar_vector_audi.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_bottom_nav_bar_line_2.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\bottom_nav_bar_line_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_settings_navigation_bar_rectangle_1.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\settings_navigation_bar_rectangle_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_inital_screen_nav_bar_rectangle_1.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\inital_screen_nav_bar_rectangle_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_vehiculos_electricos_car_images.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\vehiculos_electricos_car_images.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_catalog_navigation_bar_rectangle_1.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\catalog_navigation_bar_rectangle_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs7_imagen_coche.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs7_imagen_coche.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inria_serif_italic.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inria_serif_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_component_back_video.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_component_back_video.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_inital_screen_nav_bar_settings_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\inital_screen_nav_bar_settings_icon_vector.xml"
+    },
+    {
+        "merged": "com.acasloa946.figmaproject.app-merged_res-51:/drawable-nodpi_main_espec_q4_image_q4.png.flat",
+        "source": "com.acasloa946.figmaproject.app-relay-47:/drawable-nodpi/main_espec_q4_image_q4.png"
+    },
+    {
+        "merged": "com.acasloa946.figmaproject.app-merged_res-51:/drawable-nodpi_main_espec_q4_imagen_abajo.png.flat",
+        "source": "com.acasloa946.figmaproject.app-relay-47:/drawable-nodpi/main_espec_q4_imagen_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_bottom_nav_bar_vector_settings.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\bottom_nav_bar_vector_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_r8_r8image.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_r8_r8image.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inria_serif_regular.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inria_serif_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_sobre_nosotros_component_imagen_factory.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\sobre_nosotros_component_imagen_factory.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_sq8_imagen_abajo.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_sq8_imagen_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_neutral_nav_bar_vector1car_icon.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\neutral_nav_bar_vector1car_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_bottom_nav_bar_vector_car1.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\bottom_nav_bar_vector_car1.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_neutral_nav_bar_rectangle_1.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\neutral_nav_bar_rectangle_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_component_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_component_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_etron_imagen_abajo.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_etron_imagen_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_neutral_nav_bar_audi_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\neutral_nav_bar_audi_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_extralight.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_extralight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_r8_imagen_abajo.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_r8_imagen_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_vehiculos_acombustion_imagen_r8.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\vehiculos_acombustion_imagen_r8.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs7_vector_flecha.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs7_vector_flecha.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_electricos_component_linea_separatoria_lower.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\electricos_component_linea_separatoria_lower.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_bottom_nav_bar_line_4.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\bottom_nav_bar_line_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs6_left_arrow_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs6_left_arrow_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_catalog_navigation_bar_audi_icon_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\catalog_navigation_bar_audi_icon_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_etron_imagen_arriba.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_etron_imagen_arriba.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_audi_rs7catalog_image_rs7.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\audi_rs7catalog_image_rs7.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_bold.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_rs7_imagen_arriba.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_rs7_imagen_arriba.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inria_serif_light.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inria_serif_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_nuevo_rs7_right_arrow_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\nuevo_rs7_right_arrow_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_rs6_imagen_arriba.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_rs6_imagen_arriba.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_vehiculos_acombustion_vector.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\vehiculos_acombustion_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_audi_rs7catalog_linea_separatoria.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\audi_rs7catalog_linea_separatoria.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_vehiculos_acombustion_imagen_rs7.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\vehiculos_acombustion_imagen_rs7.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_light.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_rs6_imagen_abajo.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_rs6_imagen_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_main_espec_r8_imagen_arriba.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\main_espec_r8_imagen_arriba.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\font_relay_inter_black.ttf.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\font\\relay_inter_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_settings_navigation_bar_vector1car_icon.xml.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\settings_navigation_bar_vector1car_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\drawable-nodpi_etron_gtcatalog_image_25.png.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-relay-47:\\drawable-nodpi\\etron_gtcatalog_image_25.png"
+    },
+    {
+        "merged": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-merged_res-51:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AlvaroPC\\.gradle\\daemon\\8.0\\com.acasloa946.figmaproject.app-main-53:\\mipmap-mdpi\\ic_launcher.webp"
+    }
+]
