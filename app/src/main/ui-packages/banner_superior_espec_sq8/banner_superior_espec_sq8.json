@@ -1,0 +1,118 @@
+{
+  "name": "banner_superior_espec_sq8",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "349:1017",
+    "version": "5068768481",
+    "component-id": "667c96b0d5bf46eb1b2ad7c47e0677c63ce4b346"
+  },
+  "default": "BannerSuperiorEspecSQ8",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "TextBannerSuperiorEspecSQ8"
+      }
+    ],
+    "modes": {
+      "BannerSuperiorEspecSQ8": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "TextBannerSuperiorEspecSQ8"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "TextBannerSuperiorEspecSQ8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "10.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Nuevo Audi SQ8 e-Tron",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "11"
+                },
+                {
+                  "span-start": "11",
+                  "span-length": "3",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                },
+                {
+                  "span-start": "14",
+                  "span-length": "1"
+                },
+                {
+                  "span-start": "15",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BannerSuperiorEspecSQ8",
+      "size": {
+        "width": 430.0,
+        "height": 78.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

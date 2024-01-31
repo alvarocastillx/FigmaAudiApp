@@ -39,14 +39,32 @@ fun CatalogScreen(navController: NavController) {
             verticalArrangement = Arrangement.Center
         ) {
             VehiculosAcombustion(modifier = Modifier.size(430.dp,314.dp))
-            AudiR8catalog(modifier = Modifier.size(430.dp, 288.dp))
-            AudiRs7catalog(modifier = Modifier.size(430.dp, 288.dp))
+            AudiR8catalog(modifier = Modifier.size(430.dp, 288.dp),
+                onButtonEspecClick = {
+                    navController.navigate(Routes.EspecR8Screen.route)
+                })
+            AudiRs7catalog(modifier = Modifier.size(430.dp, 288.dp),
+                onButtonEspecClick = {
+                    navController.navigate(Routes.EspecRS7Screen.route)
+                })
             Spacer(modifier = Modifier.padding(15.dp))
-            AudiRs6catalog(modifier = Modifier.size(430.dp, 288.dp))
+            AudiRs6catalog(modifier = Modifier.size(430.dp, 288.dp),
+                onButtonSpecClick = {
+                    navController.navigate(Routes.EspecRS6Screen.route)
+                })
             VehiculosElectricos(modifier = Modifier.size(430.dp,288.dp))
-            EtronGtcatalog(modifier = Modifier.size(430.dp,288.dp))
-            Sq8catalog(modifier = Modifier.size(430.dp,288.dp))
-            Q4catalog(modifier = Modifier.size(430.dp,360.dp))
+            EtronGtcatalog(modifier = Modifier.size(430.dp,288.dp),
+                onButtonSpecClick = {
+                    navController.navigate(Routes.EspecEtronScreen.route)
+                })
+            Sq8catalog(modifier = Modifier.size(430.dp,288.dp),
+                onButtonSpecClick = {
+                    navController.navigate(Routes.EspecSQ8Screen.route)
+                })
+            Q4catalog(modifier = Modifier.size(430.dp,360.dp),
+                onButtonSpecClick = {
+                    navController.navigate(Routes.EspecQ4Screen.route)
+                })
         }
         Box(
             modifier = Modifier

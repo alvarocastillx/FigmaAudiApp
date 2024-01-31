@@ -1,0 +1,498 @@
+{
+  "name": "nuevo_rs6",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "327:822",
+    "version": "5038901391",
+    "component-id": "c3eea748bbbcd1e030bfb6b03ece026416e11e18"
+  },
+  "default": "NuevoRS6",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "BotonEspec"
+      },
+      {
+        "type": "group",
+        "id": "ButtonConfig"
+      },
+      {
+        "type": "group",
+        "id": "RightArrow"
+      },
+      {
+        "type": "image",
+        "id": "image 26"
+      },
+      {
+        "type": "group",
+        "id": "LeftArrow"
+      },
+      {
+        "type": "group",
+        "id": "Banner superior"
+      },
+      {
+        "type": "group",
+        "id": "capaBotonEspec"
+      },
+      {
+        "type": "text",
+        "id": "TextoBotonEspec"
+      },
+      {
+        "type": "group",
+        "id": "CapaButtonConfig"
+      },
+      {
+        "type": "text",
+        "id": "TextButtonConfig"
+      },
+      {
+        "type": "vector",
+        "id": "RightArrowVector"
+      },
+      {
+        "type": "vector",
+        "id": "LeftArrowVector"
+      },
+      {
+        "type": "text",
+        "id": "NUEVO RS6"
+      }
+    ],
+    "modes": {
+      "NuevoRS6": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "BotonEspec",
+              "ButtonConfig",
+              "RightArrow",
+              "image 26",
+              "LeftArrow",
+              "Banner superior"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "BotonEspec",
+            "border-radius": "100.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.14901960784313725",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "3.0",
+              "offset-x": "0.0",
+              "offset-y": "1.0",
+              "spread": "1.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "87.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "104.5"
+              }
+            },
+            "tap-handler": "$onEspecButtonClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "159.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "children": [
+              "capaBotonEspec"
+            ],
+            "item-spacing": "8.0"
+          },
+          {
+            "id": "ButtonConfig",
+            "border-radius": "100.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.14901960784313725",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "3.0",
+              "offset-x": "0.0",
+              "offset-y": "1.0",
+              "spread": "1.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-85.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "104.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "159.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "children": [
+              "CapaButtonConfig"
+            ],
+            "item-spacing": "8.0"
+          },
+          {
+            "id": "RightArrow",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "174.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.5"
+              }
+            },
+            "tap-handler": "$onRightClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "RightArrowVector"
+            ]
+          },
+          {
+            "id": "image 26",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "326.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              }
+            },
+            "image-content": "image_26.png",
+            "scale": "cover"
+          },
+          {
+            "id": "LeftArrow",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-174.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.5"
+              }
+            },
+            "tap-handler": "$onLeftClick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "LeftArrowVector"
+            ]
+          },
+          {
+            "id": "Banner superior",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-97.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "430.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "NUEVO RS6"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "capaBotonEspec",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "TextoBotonEspec"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextoBotonEspec",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Especificaciones",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "CapaButtonConfig",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "TextButtonConfig"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "TextButtonConfig",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Configure el suyo",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "RightArrowVector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "vector-content": "right_arrow_vector.svg"
+          },
+          {
+            "id": "LeftArrowVector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "vector-content": "left_arrow_vector.svg"
+          },
+          {
+            "id": "NUEVO RS6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "NUEVO RS6",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "font-weight": "600.0",
+                    "text-size": "30.0",
+                    "typeface": "Inter",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "1.0"
+                    }
+                  }
+                },
+                {
+                  "span-start": "6",
+                  "span-length": "3",
+                  "annotated-text-style": {
+                    "font-weight": "600.0",
+                    "text-size": "30.0",
+                    "typeface": "Inter",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "1.0",
+                      "value": "1.0"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.1990000406901042",
+            "typeface": "Inria Serif"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onEspecButtonClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onRightClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onLeftClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "NuevoRS6",
+      "size": {
+        "width": 430.0,
+        "height": 273.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,658 @@
+{
+  "name": "main_espec_sq8",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "349:1016",
+    "version": "5068803922",
+    "component-id": "0852cf2417cb44e03fbb03a208589f550bc8c89d"
+  },
+  "default": "MainEspecSQ8",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "ImagenAbajo"
+      },
+      {
+        "type": "text",
+        "id": "MainText"
+      },
+      {
+        "type": "group",
+        "id": "ESPECIFICACIONES"
+      },
+      {
+        "type": "image",
+        "id": "ImageSQ8"
+      },
+      {
+        "type": "group",
+        "id": "ItemList3"
+      },
+      {
+        "type": "group",
+        "id": "ItemList2"
+      },
+      {
+        "type": "group",
+        "id": "ItemList1"
+      },
+      {
+        "type": "group",
+        "id": "CapaItem3"
+      },
+      {
+        "type": "group",
+        "id": "ItemList3_synth"
+      },
+      {
+        "type": "group",
+        "id": "Item3"
+      },
+      {
+        "type": "group",
+        "id": "ContenidoItem3"
+      },
+      {
+        "type": "text",
+        "id": "HeadlineItem3"
+      },
+      {
+        "type": "text",
+        "id": "TextoAbajoItem3"
+      },
+      {
+        "type": "group",
+        "id": "CapaItem2"
+      },
+      {
+        "type": "group",
+        "id": "ItemList2_synth"
+      },
+      {
+        "type": "group",
+        "id": "Item2"
+      },
+      {
+        "type": "group",
+        "id": "ContenidoItem2"
+      },
+      {
+        "type": "text",
+        "id": "HeadlineItem2"
+      },
+      {
+        "type": "text",
+        "id": "TextoAbajoItem2"
+      },
+      {
+        "type": "group",
+        "id": "CapaItem1"
+      },
+      {
+        "type": "group",
+        "id": "ItemList1_synth"
+      },
+      {
+        "type": "group",
+        "id": "Item1"
+      },
+      {
+        "type": "group",
+        "id": "ContenidoItem1"
+      },
+      {
+        "type": "text",
+        "id": "HeadlineItem1"
+      },
+      {
+        "type": "text",
+        "id": "TextoAbajoItem1"
+      }
+    ],
+    "modes": {
+      "MainEspecSQ8": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ImagenAbajo",
+              "MainText",
+              "ESPECIFICACIONES",
+              "ImageSQ8"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "ImagenAbajo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-444.09375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "300.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "182.8125"
+              }
+            },
+            "image-content": "imagen_abajo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "MainText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-43.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "323.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "576.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "El Audi SQ8 e-Tron redefine la experiencia de conducción SUV con un equilibrio perfecto entre potencia, elegancia y eficiencia. Este modelo de alto rendimiento fusiona el diseño imponente de un SUV con la tecnología avanzada de propulsión eléctrica.\nDesde su diseño exterior, que combina líneas deportivas con la robustez característica de Audi, hasta su lujoso interior, cada detalle del SQ8 E-tron refleja la excelencia artesanal de la marca. Experimenta la comodidad y la sofisticación en cada viaje.\nBajo el capó, la combinación de un potente motor eléctrico y un rendimiento excepcional redefine las expectativas de un SUV. Disfruta de una aceleración impresionante y un manejo ágil, destacando la versatilidad de este vehículo para enfrentar cualquier terreno",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "ESPECIFICACIONES",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "463.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "272.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ItemList3",
+              "ItemList2",
+              "ItemList1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ImageSQ8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-586.84375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "131.3125"
+              }
+            },
+            "image-content": "image_sq8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "ItemList3",
+            "margin": {
+              "top": "108.0",
+              "bottom": "92.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "CapaItem3",
+              "ItemList3_synth"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "292.5",
+              "saturation": "0.03137254901960784",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList2",
+            "margin": {
+              "top": "200.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "CapaItem2",
+              "ItemList2_synth"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "292.5",
+              "saturation": "0.03137254901960784",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-92.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "CapaItem1",
+              "ItemList1_synth"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "292.5",
+              "saturation": "0.03137254901960784",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "CapaItem3",
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList3_synth",
+            "opacity": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "children": [
+              "Item3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Item3",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ContenidoItem3"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ContenidoItem3",
+            "cross-axis-align": "start",
+            "children": [
+              "HeadlineItem3",
+              "TextoAbajoItem3"
+            ]
+          },
+          {
+            "id": "HeadlineItem3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Número de plazas",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "TextoAbajoItem3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "5\n",
+            "overflow": "ellipsis",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "CapaItem2",
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList2_synth",
+            "opacity": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "children": [
+              "Item2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Item2",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ContenidoItem2"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ContenidoItem2",
+            "cross-axis-align": "start",
+            "children": [
+              "HeadlineItem2",
+              "TextoAbajoItem2"
+            ]
+          },
+          {
+            "id": "HeadlineItem2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Consumo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "TextoAbajoItem2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "26,2–28 kWh/100 km",
+            "overflow": "ellipsis",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "CapaItem1",
+            "margin": {
+              "bottom": "0.0000152587890625"
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList1_synth",
+            "opacity": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Item1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Item1",
+            "padding": {
+              "left": "16.0",
+              "top": "12.0",
+              "right": "24.0",
+              "bottom": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "ContenidoItem1"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ContenidoItem1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "HeadlineItem1",
+              "TextoAbajoItem1"
+            ]
+          },
+          {
+            "id": "HeadlineItem1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Número de CV.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "TextoAbajoItem1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "503",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "MainEspecSQ8",
+      "size": {
+        "width": 430.0,
+        "height": 1395.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,102 @@
+{
+  "name": "banner_superior_espec_etron",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "348:938",
+    "version": "5068622646",
+    "component-id": "0f03733aa2eeb685f26328a73e259476158bedcb"
+  },
+  "default": "BannerSuperiorEspecEtron",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "TextBannerSuperiorEspecEtron"
+      }
+    ],
+    "modes": {
+      "BannerSuperiorEspecEtron": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "TextBannerSuperiorEspecEtron"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "TextBannerSuperiorEspecEtron",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Nuevo Audi e-Tron GT",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "11"
+                },
+                {
+                  "span-start": "11",
+                  "span-length": "9",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BannerSuperiorEspecEtron",
+      "size": {
+        "width": 430.0,
+        "height": 78.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

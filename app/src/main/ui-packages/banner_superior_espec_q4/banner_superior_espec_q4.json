@@ -1,0 +1,130 @@
+{
+  "name": "banner_superior_espec_q4",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "349:1047",
+    "version": "5068819781",
+    "component-id": "f371358c0087cea4bf69b707814953d4074dad08"
+  },
+  "default": "BannerSuperiorEspecQ4",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "BannerSuperiorEspecQ4Frame"
+      },
+      {
+        "type": "text",
+        "id": "TextBannerSuperiorEspecQ4"
+      }
+    ],
+    "modes": {
+      "BannerSuperiorEspecQ4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "BannerSuperiorEspecQ4Frame"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "BannerSuperiorEspecQ4Frame",
+            "is-structured": "false",
+            "children": [
+              "TextBannerSuperiorEspecQ4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "TextBannerSuperiorEspecQ4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Nuevo Audi Q4 e-Tron",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "11"
+                },
+                {
+                  "span-start": "11",
+                  "span-length": "2",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                },
+                {
+                  "span-start": "13",
+                  "span-length": "1"
+                },
+                {
+                  "span-start": "14",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "100.85106382978724",
+                      "saturation": "0.9894736842105264",
+                      "value": "0.7450980392156863"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BannerSuperiorEspecQ4",
+      "size": {
+        "width": 430.0,
+        "height": 78.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

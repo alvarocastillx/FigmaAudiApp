@@ -1,0 +1,700 @@
+{
+  "name": "main_espec_rs6",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Tk8E1Ca3InxrWRSQ9HsDii",
+    "node": "343:774",
+    "version": "5068370461",
+    "component-id": "e0187805071ab1ace8f1f2f4eb1b34c230b0cbf2"
+  },
+  "default": "MainEspecRS6",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "ImagenAbajo"
+      },
+      {
+        "type": "image",
+        "id": "ImagenArriba"
+      },
+      {
+        "type": "text",
+        "id": "MainText"
+      },
+      {
+        "type": "group",
+        "id": "ESPECIFICACIONES"
+      },
+      {
+        "type": "group",
+        "id": "ItemList3"
+      },
+      {
+        "type": "group",
+        "id": "ItemList2"
+      },
+      {
+        "type": "group",
+        "id": "ItemList1"
+      },
+      {
+        "type": "group",
+        "id": "CapaItem3"
+      },
+      {
+        "type": "group",
+        "id": "ItemList3_synth"
+      },
+      {
+        "type": "group",
+        "id": "Item3"
+      },
+      {
+        "type": "group",
+        "id": "ContenidoItem3"
+      },
+      {
+        "type": "text",
+        "id": "HeadlineItem3"
+      },
+      {
+        "type": "text",
+        "id": "TextoAbajoItem3"
+      },
+      {
+        "type": "group",
+        "id": "CapaItem2"
+      },
+      {
+        "type": "group",
+        "id": "ItemList2_synth"
+      },
+      {
+        "type": "group",
+        "id": "Item2"
+      },
+      {
+        "type": "group",
+        "id": "ContenidoItem2"
+      },
+      {
+        "type": "text",
+        "id": "HeadlineItem2"
+      },
+      {
+        "type": "text",
+        "id": "TextoAbajoItem2"
+      },
+      {
+        "type": "group",
+        "id": "CapaItem1"
+      },
+      {
+        "type": "group",
+        "id": "ItemList1_synth"
+      },
+      {
+        "type": "group",
+        "id": "Item1"
+      },
+      {
+        "type": "group",
+        "id": "ContenidoItem1"
+      },
+      {
+        "type": "text",
+        "id": "HeadlineItem1"
+      },
+      {
+        "type": "text",
+        "id": "TextoAbajoItem1"
+      }
+    ],
+    "modes": {
+      "MainEspecRS6": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ImagenAbajo",
+              "ImagenArriba",
+              "MainText",
+              "ESPECIFICACIONES"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "ImagenAbajo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-353.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "300.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "225.0"
+              }
+            },
+            "image-content": "imagen_abajo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "ImagenArriba",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-494.04411697387695"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "300.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "116.9117660522461"
+              }
+            },
+            "image-content": "imagen_arriba.png",
+            "scale": "cover"
+          },
+          {
+            "id": "MainText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-3.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-78.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "323.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "El Audi RS6 2022, versátil y potente, presenta un motor V8 biturbo de 4.0 litros para un rendimiento excepcional. Su diseño combina elegancia con detalles deportivos, mientras que el interior lujoso y tecnológico garantiza una experiencia de conducción premium. Con tracción integral Quattro y capacidades dinámicas, el RS6 ofrece un equilibrio perfecto entre estilo y rendimiento.\n\n\n\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "ESPECIFICACIONES",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "360.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "272.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ItemList3",
+              "ItemList2",
+              "ItemList1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "CapaItem3",
+              "ItemList3_synth"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "292.5",
+              "saturation": "0.03137254901960784",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "100.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "CapaItem2",
+              "ItemList2_synth"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "292.5",
+              "saturation": "0.03137254901960784",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-92.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "CapaItem1",
+              "ItemList1_synth"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "292.5",
+              "saturation": "0.03137254901960784",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "CapaItem3",
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList3_synth",
+            "opacity": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "children": [
+              "Item3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Item3",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ContenidoItem3"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ContenidoItem3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "HeadlineItem3",
+              "TextoAbajoItem3"
+            ]
+          },
+          {
+            "id": "HeadlineItem3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Número de plazas",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "TextoAbajoItem3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "5",
+            "overflow": "ellipsis",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "CapaItem2",
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList2_synth",
+            "opacity": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "children": [
+              "Item2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Item2",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ContenidoItem2"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ContenidoItem2",
+            "cross-axis-align": "start",
+            "children": [
+              "HeadlineItem2",
+              "TextoAbajoItem2"
+            ]
+          },
+          {
+            "id": "HeadlineItem2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Consumo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "TextoAbajoItem2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "19L/100km",
+            "overflow": "ellipsis",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "CapaItem1",
+            "margin": {
+              "bottom": "0.0000152587890625"
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "ItemList1_synth",
+            "opacity": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Item1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Item1",
+            "padding": {
+              "left": "16.0",
+              "top": "12.0",
+              "right": "24.0",
+              "bottom": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "ContenidoItem1"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ContenidoItem1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "HeadlineItem1",
+              "TextoAbajoItem1"
+            ]
+          },
+          {
+            "id": "HeadlineItem1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Número de CV.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "TextoAbajoItem1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "600",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "MainEspecRS6",
+      "size": {
+        "width": 430.0,
+        "height": 1195.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

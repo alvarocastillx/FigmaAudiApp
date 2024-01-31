@@ -41,7 +41,10 @@ fun InitialScreen(navController: NavController) {
                 .width(430.dp)
                 .height(273.dp),
                 onRightArrowClick = {
-                    //TODO
+                    navController.navigate(Routes.SecondScreen.route)
+                },
+                onButtonSpecClick = {
+                    navController.navigate(Routes.EspecRS7Screen.route)
                 })
             SobreNosotrosComponent(
                 modifier = Modifier

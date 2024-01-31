@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "Tk8E1Ca3InxrWRSQ9HsDii",
     "node": "251:56",
-    "version": "5034481901",
+    "version": "5038735062",
     "component-id": "5078563fa31e5bc39f479cb43fe3ec5e32ab1499"
   },
   "default": "NuevoRS7",
@@ -222,12 +222,12 @@
             "id": "RightArrow",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "365.0"
+                "attachment": "center",
+                "offset": "174.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "121.0"
+                "attachment": "center",
+                "offset": "8.5"
               }
             },
             "tap-handler": "$onRightArrowClick",
@@ -320,27 +320,14 @@
           },
           {
             "id": "NUEVO RS7",
-            "margin": {
-              "top": "20.0",
-              "bottom": "22.0"
-            },
             "alignment": {
               "horizontal": {
                 "attachment": "center",
                 "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "shrink"
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "attachment": "center",
+                "offset": "-1.0"
               }
             },
             "font-weight": "700.0",
@@ -392,20 +379,24 @@
           },
           {
             "id": "RightArrowVector",
-            "margin": {
-              "left": "8.0",
-              "top": "12.0",
-              "right": "8.0",
-              "bottom": "12.0"
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
             },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "fixed",
+                "value": "32.0"
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "fixed",
+                "value": "24.0"
               }
             },
             "vector-content": "right_arrow_vector.svg"
